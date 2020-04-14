@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,99 @@
   color: white;
 }
 
+.rotateImage {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  max-height: 100% !important;
+  max-width: 100% !important;
+}
+
+.whiteText {
+  color: antiquewhite;
+}
+
+.container {
+  width: 80%;
+  height: 200px;
+  background: black;
+  margin: auto;
+  padding: 10px;
+  opacity: 1;
+}
+
+.textAdjust {
+  font-size-adjust: auto;
+}
+
+.one {
+  width: 50%;
+  height: 200px;
+  background: linear-gradient(green, white);
+  float: left;
+}
+
+.two {
+  margin-left: 0%;
+  height: 200px;
+  background: black;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.redText {
+  color: red
+}
+
+.blackText {
+  color: black
+}
+.leftText {
+  text-align: left;
+}
+
+.containerList {
+  width: 150%;
+  height: 225px;
+  background: black;
+  margin: auto;
+  padding: 10px;
+  opacity: 1;
+  float: left;
+}
+
+.oneList {
+  width: 10%;
+  height: 200px;
+  background: black;
+  float: left;
+}
+
+.twoList {
+  margin-left: 10%;
+  height: 200px;
+  background: black;
+}
+
+.threeList {
+  margin-left: 10%;
+  height: 200px;
+  background: black;
+  float: right;
+}
+
+.scale15 {
+  height: 115%;
+  width: 90%;
+}
+
+ul li {
+  display: inline-block;
+  text-align:center;
 }
 
 @keyframes App-logo-spin {
